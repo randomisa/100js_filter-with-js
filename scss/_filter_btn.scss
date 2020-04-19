@@ -1,0 +1,24 @@
+.container {
+    .filter_btn {
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 1rem;
+        width: 100%;
+
+        div {
+            align-items: center;
+            border: 1px solid $grey-50;
+            display: flex;
+            justify-content: center;
+            margin: 0.5rem 0 0.5rem 0;
+            padding: 0.5rem;
+            width: 40%;
+        }
+
+        .btn_all {
+            margin: 0.5rem 15%;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+/*************************************
+Responsive
+*************************************/
+@import "./responsive/device-breakpoints.scss";
+@import "./responsive/mixins.scss";
+
+/*************************************
+Variables
+*************************************/
+@import "./variables/font-size.scss";
+@import "./variables/color-palette.scss";
+
+
+@import "./body";
+
+
+
+@import "./filter_btn";
+@import "./content";

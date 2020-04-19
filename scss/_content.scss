@@ -1,0 +1,26 @@
+.container {
+    .items-to-filter {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    
+        div {
+            border: 1px solid $grey-50;
+            width: 50%;
+            height: 9rem;
+        }
+
+        .plants {
+            background-color: violet;
+        }
+        .green {
+            background-color: green;
+        }
+        .otter {
+            background-color: grey;
+        }
+        .ocean {
+            background-color: lightskyblue;
+        }
+    }
+}
