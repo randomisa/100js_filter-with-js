@@ -8,6 +8,30 @@
             border: 1px solid $grey-50;
             width: 50%;
             height: 9rem;
+            overflow: hidden;
+
+            @include sm {
+                width: 33%;
+            }
+
+            @include md {
+                height: 14rem;
+                width: 50%;
+            }
+
+            @include lg {
+                width: 33%;
+            }
+
+            @include xl {
+                width: 25%;
+            }
+
+            img {
+                align-items: center;
+                height: 100%;
+                object-fit: contain;
+            }
         }
 
         .plants {
