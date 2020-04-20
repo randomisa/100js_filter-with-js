@@ -24,8 +24,10 @@ const filterType = {
 
 const filterTypeArray = Object.values(filterType);
 
-console.log(filterTypeArray);
 
+/**********************
+Code
+***********************/
 
 
 buttons.forEach(button => {
